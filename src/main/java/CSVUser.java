@@ -14,6 +14,22 @@ public class CSVUser {
     @CsvBindByName
     private String country;
 
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
     @Override
     public String toString() {
         return "CSVUser{" +
